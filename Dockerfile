@@ -1,7 +1,7 @@
 # Added Dockerfile following Step 2 instructions in the Udacity 'Containerizing
 # and Running Locally Lesson'
 
-FROM python:stretch
+FROM python:3.7.9-stretch
 
 COPY . /main
 WORKDIR /main
